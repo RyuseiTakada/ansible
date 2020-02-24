@@ -1,0 +1,9 @@
+---
+- name: Setup Local PC
+  hosts:
+    - 127.0.0.1
+  connection: local
+  gather_facts: yes
+  roles:
+    - yum
+
